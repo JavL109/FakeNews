@@ -1,0 +1,24 @@
+
+body {
+    font-family: sans-serif;
+    background-color: rgb(231, 229, 229);
+}
+
+#image1{
+    position: absolute;
+    margin-left: 50%;
+    width: 1500px;
+    height: auto;
+}
+
+#image3{
+    margin-top: 7px;
+    position: absolute;
+    margin-left: 50%;
+    width: 1500px;
+    height: auto;
+}
+
+.images{
+    border:2px solid rgb(189, 186, 186);
+}
