@@ -1,0 +1,36 @@
+
+body {
+    font-family: sans-serif;
+    background-color: rgb(231, 229, 229);
+}
+
+#image1{
+    position: absolute;
+    margin-left: 50%;
+    width: 1500px;
+    height: auto;
+}
+
+#image3{
+    margin-top: 7px;
+    position: absolute;
+    margin-left: 50%;
+    width: 1500px;
+    height: auto;
+}
+
+/* Estilo de las imágenes */
+.images {
+    width: 100%;
+    max-width: 300px; /* Tamaño máximo para las imágenes */
+    height: auto;
+    border-radius: 12px; /* Bordes redondeados */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1); /* Sombra suave para un efecto de profundidad */
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Efecto al pasar el mouse sobre las imágenes */
+.images:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2); /* Efecto de sombra más grande */
+}
